@@ -49,7 +49,7 @@ function Navbar() {
 			{ redirect ?	<Redirect to="/" /> : null}
 			<AppBar position="static" className="navbar" elevation={4}>
 				<Toolbar>
-					<Link to="/" className="nav-link"><img src="../CC LOGO-01.svg" className="nav-logo"/></Link>
+					<Link to="/" className="nav-link"></Link>
 					<Typography varirant="h6" className="nav-head">The Quizzie Platform</Typography>
 					<div className="btn-bar">
 						{navLoggedIn === false?
