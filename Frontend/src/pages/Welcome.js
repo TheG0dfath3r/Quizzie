@@ -71,7 +71,7 @@ function Welcome(props) {
 				<div className="welcome-screen">
 					<Grid container spacing={0}>
 						<Grid item xs={12} md={6} className="heading-section">
-							<img src="head.png" className="quiz-image" alt="Welcome to Quizzie"></img>
+							<h1>Welcome to Quizzie</h1>
 						</Grid>
 						<Hidden smDown>
 							<Grid item xs={12} md={6} className="pin-section">
